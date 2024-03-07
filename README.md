@@ -87,4 +87,4 @@ O caixa eletrônico já conterá uma quantidade padrão para cada nota.
 ### Endpoint: `POST /accounts`
 
 ### Payload:
-Inicialmente não é necessária adição de payload neste primeiro momento, visto que trata-se de um app de testes e iste gera um UUID randômico para fins didáticos e caso haja a necessidade expansão futura, pois será possível fazer o relacionamento entre account e usuário, transações e tudo o que pode envolver a interação do usuário com o sistema.
+Inicialmente não é necessária adição de payload neste primeiro momento, visto que trata-se de um app de testes. Ao criar uma conta a API gera um UUID randômico para fins didáticos e caso haja a necessidade de expansão futura, pois será possível fazer o relacionamento entre account e users, transactions e tudo o que pode envolver a interação do usuário com o caixa eletrônico.
